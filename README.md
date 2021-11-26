@@ -8,6 +8,7 @@
 pkg update && pkg upgrade
 pkg install python
 pkg install git
-cd storage/downloads/termux-tema
+git clone https://github.com/Ryan123457/tampilan-linux
+cd tampilan-linux
 python linux.py
 ```
